@@ -1,5 +1,5 @@
 const CACHE_VERSION = "v2"; // Puedes incrementar cuando actualices la PWA
-const CACHE_NAME = `herramienta-buro-${CACHE_VERSION}`;
+const CACHE_NAME = `herramienta-buró-${CACHE_VERSION}`;
 
 const STATIC_ASSETS = [
   "/HERRRAMIENTA-BURO/",
@@ -50,4 +50,5 @@ self.addEventListener("fetch", event => {
       })
       .catch(() => caches.match(event.request))
   );
+
 });

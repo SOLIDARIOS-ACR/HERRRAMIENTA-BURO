@@ -1,7 +1,7 @@
 {
-  "name": "Herramienta de Buro",
-  "short_name": "Herramienta de Buro",
-  "start_url": "/HERRRAMIENTA-BURO/index.html",
+  "name": "Herramienta de Buró",
+  "short_name": "Herramienta de Buró",
+  "start_url": "/HERRRAMIENTA-BURÓ/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
@@ -18,3 +18,4 @@
     }
   ]
 }
+

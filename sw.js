@@ -2,10 +2,10 @@ const CACHE_VERSION = "v2"; // Puedes incrementar cuando actualices la PWA
 const CACHE_NAME = `herramienta-buró-${CACHE_VERSION}`;
 
 const STATIC_ASSETS = [
-  "/HERRRAMIENTA-BURO/",
-  "/HERRRAMIENTA-BURO/index.html",
-  "/HERRRAMIENTA-BURO/icon-192.png",
-  "/HERRRAMIENTA-BURO/icon-512.png"
+  "/HERRRAMIENTA-BURÓ/",
+  "/HERRRAMIENTA-BURÓ/index.html",
+  "/HERRRAMIENTA-BURÓ/icon-192.png",
+  "/HERRRAMIENTA-BURÓ/icon-512.png"
 ];
 
 // INSTALL
@@ -52,3 +52,4 @@ self.addEventListener("fetch", event => {
   );
 
 });
+
